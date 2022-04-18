@@ -242,14 +242,31 @@ h3 {
   color: #fff;
   border-radius: 10px;
 }
+.status-Nuevo {
+  background-color: green;
+  color: #fff;
+  border-radius: 10px;
+}
+
 
 .status-open {
   background-color: steelblue;
   color: #fff;
   border-radius: 10px;
 }
+.status-Abierto {
+  background-color: steelblue;
+  color: #fff;
+  border-radius: 10px;
+}
 
 .status-closed {
+  background-color: darkred;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.status-Cerrado {
   background-color: darkred;
   color: #fff;
   border-radius: 10px;
