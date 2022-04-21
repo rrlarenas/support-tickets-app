@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+# [remote "origin"]
+# 	url = https://github.com/rrlarenas/support-tickets-app.git
+# 	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "Main"]
+	remote = origin
+	merge = refs/heads/Main
+[remote "heroku"]
+	url = https://git.heroku.com/rlm-support-desk.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
